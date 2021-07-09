@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  line-height: 1.6;
 }
 
 nav {
@@ -82,11 +86,23 @@ nav button {
 }
 
 .content {
-    position: absolute;
-    width: 1140px;
-    height: 2730px;
-    left: 150px;
-    top: 275px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    /* Small / Regular */
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    /* or 19px */
+
+
+    /* Text colour / 4 */
+
+    color: #818195;
 }
 
 .content h5 {
@@ -104,33 +120,12 @@ nav button {
     color: #4B4B58;
 }
 
-
-.content {
-    position: absolute;
-    width: 1140px;
-    height: 2730px;
-    left: 150px;
-    top: 275px;
-
-    /* Small / Regular */
-
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 150%;
-    /* or 19px */
-
-
-    /* Text colour / 4 */
-
-    color: #818195;
-}
-
 footer {
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
+    bottom: 20px;
+    
 }
 
 form label {
